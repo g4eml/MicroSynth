@@ -9,8 +9,8 @@ The datasheet states that the device can be programmed to operate on any frequen
 Full schematics and PCB design are included in this repository. The CMT2119A devices are available from AliExpress. The NT3225SA 26.000 Mhz TCXO can be found from many suppliers. The remainign components are not critical. 
 
 ## Programming
-Progamming can be done with my RP2040_Synth Programmer which can be found here.
+Progamming can be done with my RP2040_Synth Programmer which can be found here https://github.com/g4eml/RP2040_Synth .
 
 ## Tuning
-The matching components may need to be selected for optimum output on you rdesired frequency according to the table in the schematic. Populating with the 'Wideband' components will work for any frequency but the ouptut level may be reduced and will contain harmonics as it is a square wave. 
+The matching components may need to be selected for optimum output on your desired frequency according to the table in the schematic. Populating with the 'Wideband' components will work for any frequency but the ouptut level may be reduced and will contain harmonics as it is a square wave. 
 
