@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d38e8ed1-e625-45e9-8b6c-f7e02cbba196")
 	(paper "A4")
 	(title_block
@@ -18,8 +18,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,6 +32,8 @@
 			)
 			(property "Value" "Conn_01x05_Pin"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,33 +42,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -71,20 +85,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x05_Pin_1_1"
@@ -306,8 +324,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -317,6 +339,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -326,47 +350,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -399,7 +433,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -417,7 +451,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -446,8 +480,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -456,6 +494,8 @@
 			)
 			(property "Value" "L"
 				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -464,47 +504,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Inductor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "L_0_1"
@@ -607,8 +657,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -617,6 +671,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -625,47 +681,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -685,7 +751,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -703,7 +769,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -725,8 +791,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at -1.016 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -735,6 +805,8 @@
 			)
 			(property "Value" "CMT2119A"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -743,29 +815,35 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "CMT2119A_0_1"
@@ -836,17 +914,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 8.89 3.81 180)
+				(pin input line
+					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "VDD"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -872,17 +950,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -3.81 180)
+				(pin power_in line
+					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "CLK"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -897,8 +975,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at 0.508 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -907,6 +989,8 @@
 			)
 			(property "Value" "NT3225SA"
 				(at 2.032 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -915,38 +999,46 @@
 			)
 			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "TCXO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "NT3225SA_0_1"
@@ -1000,24 +1092,6 @@
 					)
 				)
 				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -1035,11 +1109,29 @@
 						)
 					)
 				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1050,17 +1142,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1069,38 +1167,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1121,7 +1227,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1140,7 +1246,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1151,17 +1257,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1170,38 +1282,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC_0_1"
@@ -1246,7 +1366,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1936,7 +2056,7 @@
 		(uuid "f6c62bbc-154e-4fb6-8ec8-9cd20de67c18")
 	)
 	(table
-		(column_count 5)
+		(column_count 4)
 		(border
 			(external yes)
 			(header yes)
@@ -1953,8 +2073,9 @@
 				(type solid)
 			)
 		)
-		(column_widths 20.32 20.32 20.32 20.32 20.32)
+		(column_widths 20.32 20.32 20.32 20.32)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "812095bc-8ceb-49da-8a9c-236c65b5abcd")
 		(cells
 			(table_cell "Frequency"
 				(exclude_from_sim no)
@@ -1994,28 +2115,9 @@
 				)
 				(uuid "de3e8448-ad5e-48cf-8301-05f9b18dfba3")
 			)
-			(table_cell "C3"
-				(exclude_from_sim no)
-				(at 76.2 134.62 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify top)
-				)
-				(uuid "5cf1eb91-a079-4256-866c-e006ad96be42")
-			)
 			(table_cell "L2"
 				(exclude_from_sim no)
-				(at 96.52 134.62 0)
+				(at 76.2 134.62 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2034,7 +2136,7 @@
 			)
 			(table_cell "C4"
 				(exclude_from_sim no)
-				(at 116.84 134.62 0)
+				(at 96.52 134.62 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2085,26 +2187,9 @@
 				)
 				(uuid "3f94d038-a630-4b4d-bad1-3b0df85b6fe4")
 			)
-			(table_cell "100pF"
-				(exclude_from_sim no)
-				(at 76.2 137.16 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "8a2a29d8-81ac-4b24-844c-9b0fdb1dc29b")
-			)
 			(table_cell "Link"
 				(exclude_from_sim no)
-				(at 96.52 137.16 0)
+				(at 76.2 137.16 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2121,7 +2206,7 @@
 			)
 			(table_cell "Not Fitted"
 				(exclude_from_sim no)
-				(at 116.84 137.16 0)
+				(at 96.52 137.16 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2136,7 +2221,7 @@
 				)
 				(uuid "4989aba3-1db5-4033-bc1d-72120c7dadc4")
 			)
-			(table_cell ""
+			(table_cell "315 MHZ"
 				(exclude_from_sim no)
 				(at 35.56 139.7 0)
 				(size 20.32 2.54)
@@ -2153,7 +2238,7 @@
 				)
 				(uuid "6adf0789-f734-4f9c-ab56-f837b4333e4c")
 			)
-			(table_cell ""
+			(table_cell "180nH"
 				(exclude_from_sim no)
 				(at 55.88 139.7 0)
 				(size 20.32 2.54)
@@ -2170,7 +2255,7 @@
 				)
 				(uuid "34e44fb9-a401-4a73-b6d1-ca5d8a619c76")
 			)
-			(table_cell ""
+			(table_cell "47nH"
 				(exclude_from_sim no)
 				(at 76.2 139.7 0)
 				(size 20.32 2.54)
@@ -2185,9 +2270,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "fd3e3040-0a42-4a9e-b7fd-6b96352a3299")
+				(uuid "e390af01-4a73-478f-b058-5d3ddcb80e86")
 			)
-			(table_cell ""
+			(table_cell "10pF"
 				(exclude_from_sim no)
 				(at 96.52 139.7 0)
 				(size 20.32 2.54)
@@ -2202,26 +2287,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e390af01-4a73-478f-b058-5d3ddcb80e86")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 116.84 139.7 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "2c294dd0-be57-4e4b-85fb-90ff59e86ebf")
 			)
-			(table_cell ""
+			(table_cell "433 MHz"
 				(exclude_from_sim no)
 				(at 35.56 142.24 0)
 				(size 20.32 2.54)
@@ -2238,7 +2306,7 @@
 				)
 				(uuid "6032d964-a4a6-4a84-9ea3-72ec81c43239")
 			)
-			(table_cell ""
+			(table_cell "180nH"
 				(exclude_from_sim no)
 				(at 55.88 142.24 0)
 				(size 20.32 2.54)
@@ -2255,7 +2323,7 @@
 				)
 				(uuid "0893ae06-08c6-46ed-924d-9d0a475a068c")
 			)
-			(table_cell ""
+			(table_cell "27nH"
 				(exclude_from_sim no)
 				(at 76.2 142.24 0)
 				(size 20.32 2.54)
@@ -2270,9 +2338,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "a6abdd81-2da0-4252-b6c9-98d377c12303")
+				(uuid "3ef08e11-af4b-46ad-96da-c0e550a47cf3")
 			)
-			(table_cell ""
+			(table_cell "9pF"
 				(exclude_from_sim no)
 				(at 96.52 142.24 0)
 				(size 20.32 2.54)
@@ -2287,26 +2355,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "3ef08e11-af4b-46ad-96da-c0e550a47cf3")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 116.84 142.24 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "6414f274-833c-4458-96c7-aacb03298ef0")
 			)
-			(table_cell ""
+			(table_cell "868 MHz"
 				(exclude_from_sim no)
 				(at 35.56 144.78 0)
 				(size 20.32 2.54)
@@ -2323,7 +2374,7 @@
 				)
 				(uuid "4cf6f4bc-a6d0-43e2-86fc-e32db9beabc0")
 			)
-			(table_cell ""
+			(table_cell "100 nH"
 				(exclude_from_sim no)
 				(at 55.88 144.78 0)
 				(size 20.32 2.54)
@@ -2340,7 +2391,7 @@
 				)
 				(uuid "fc4df854-ec23-42fb-9c3c-77124ad0e0e8")
 			)
-			(table_cell ""
+			(table_cell "8.2nH"
 				(exclude_from_sim no)
 				(at 76.2 144.78 0)
 				(size 20.32 2.54)
@@ -2355,9 +2406,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e1aaef52-2d1a-4f64-bcd6-352685cb4b6c")
+				(uuid "a3898700-ab79-4d0b-829a-7c53465756da")
 			)
-			(table_cell ""
+			(table_cell "3.9pF"
 				(exclude_from_sim no)
 				(at 96.52 144.78 0)
 				(size 20.32 2.54)
@@ -2372,26 +2423,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "a3898700-ab79-4d0b-829a-7c53465756da")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 116.84 144.78 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "db5dc118-2c37-4a19-971f-fb8bc71c55dc")
 			)
-			(table_cell ""
+			(table_cell "915 MHz"
 				(exclude_from_sim no)
 				(at 35.56 147.32 0)
 				(size 20.32 2.54)
@@ -2408,7 +2442,7 @@
 				)
 				(uuid "500290da-e7f8-40f5-bf93-85ab6a77e3de")
 			)
-			(table_cell ""
+			(table_cell "100 nH"
 				(exclude_from_sim no)
 				(at 55.88 147.32 0)
 				(size 20.32 2.54)
@@ -2425,7 +2459,7 @@
 				)
 				(uuid "b15fb829-e03c-47ce-bbbb-3cf3e001d867")
 			)
-			(table_cell ""
+			(table_cell "6.8nH"
 				(exclude_from_sim no)
 				(at 76.2 147.32 0)
 				(size 20.32 2.54)
@@ -2440,28 +2474,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "ad6cd6ea-0c21-461d-a85f-7106c3f88ed5")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 96.52 147.32 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "85cd0691-6834-45cc-a9da-f4083c7b0897")
 			)
-			(table_cell ""
+			(table_cell "3.9pF"
 				(exclude_from_sim no)
-				(at 116.84 147.32 0)
+				(at 96.52 147.32 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2525,28 +2542,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "583c45e9-56d1-4089-87da-475997bd00ed")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 96.52 149.86 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "52b3dcbe-ad44-4d93-9a12-3f223372c948")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 116.84 149.86 0)
+				(at 96.52 149.86 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2610,28 +2610,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "d111cf85-bea7-4be5-8cac-7bbad08f310e")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 96.52 152.4 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "d64d050c-49d7-4700-8ca4-10e818fdccba")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 116.84 152.4 0)
+				(at 96.52 152.4 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2695,28 +2678,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "387375a0-fc4b-4e33-a99a-d3eaef609bba")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 96.52 154.94 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "e7480894-d407-40a0-aec5-4efe94969dd8")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 116.84 154.94 0)
+				(at 96.52 154.94 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2780,28 +2746,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "45c21a26-1ed4-4564-8535-e6381f6845df")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 96.52 157.48 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "f406998d-a000-45ac-a1de-cf29edcd9e0b")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 116.84 157.48 0)
+				(at 96.52 157.48 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2865,28 +2814,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "57def5e2-db3a-4979-a9ee-a022b0fb6dfa")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 96.52 160.02 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
 				(uuid "1e79ce57-cd7e-4a1e-a03b-360f4af14f6e")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 116.84 160.02 0)
+				(at 96.52 160.02 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2907,14 +2839,18 @@
 		(lib_id "Device:L")
 		(at 173.99 87.63 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e74747b-701c-4133-9937-f79ef0fff3d4")
 		(property "Reference" "L2"
 			(at 173.99 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,6 +2859,8 @@
 		)
 		(property "Value" "SOT"
 			(at 173.99 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,29 +2869,35 @@
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 173.99 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
 			(at 173.99 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2975,14 +2919,18 @@
 		(lib_id "Device:C")
 		(at 107.95 83.82 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f96578d-8454-4b2f-ac1c-2d9d25ef09fa")
 		(property "Reference" "C1"
 			(at 107.95 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,6 +2939,8 @@
 		)
 		(property "Value" "1nF"
 			(at 107.95 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,29 +2949,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 82.8548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 107.95 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3031,7 +2987,7 @@
 			(uuid "b2db5e98-0019-4100-8564-edcb3b128ae7")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "C1")
 					(unit 1)
@@ -3043,14 +2999,18 @@
 		(lib_id "G4EML:CMT2119A")
 		(at 132.08 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762ab280-cf3f-4eff-91a4-3cf08d7b6dd1")
 		(property "Reference" "IC1"
 			(at 132.08 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,6 +3019,8 @@
 		)
 		(property "Value" "CMT2119A"
 			(at 132.08 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,29 +3029,35 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3111,7 +3079,7 @@
 			(uuid "9f2a40ae-2ec3-406f-b03d-4d9d2c720a0f")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "IC1")
 					(unit 1)
@@ -3123,14 +3091,18 @@
 		(lib_id "Device:C")
 		(at 185.42 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dcbc102-6565-4620-9a9d-b8189c8ad3ff")
 		(property "Reference" "C4"
 			(at 189.23 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,6 +3112,8 @@
 		)
 		(property "Value" "SOT"
 			(at 189.23 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,29 +3123,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 186.3852 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 185.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 185.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3193,14 +3173,18 @@
 		(lib_id "Device:R")
 		(at 208.28 74.93 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9574a304-eac4-44ee-824b-03aeb5fedaa9")
 		(property "Reference" "R2"
 			(at 210.82 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,6 +3194,8 @@
 		)
 		(property "Value" "47K"
 			(at 210.82 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,29 +3205,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.502 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 208.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3251,7 +3243,7 @@
 			(uuid "76846905-3c05-4742-b698-9d0528d1f8ec")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "R2")
 					(unit 1)
@@ -3263,13 +3255,17 @@
 		(lib_id "Device:R")
 		(at 200.66 74.93 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ba67106-9c1b-486b-898c-1380dea15bc3")
 		(property "Reference" "R1"
 			(at 196.088 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,6 +3275,8 @@
 		)
 		(property "Value" "47K"
 			(at 195.326 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,29 +3286,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 198.882 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 200.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 200.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3320,7 +3324,7 @@
 			(uuid "2f51d17c-04e1-4966-a3f0-e60d755d8587")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "R1")
 					(unit 1)
@@ -3332,14 +3336,18 @@
 		(lib_id "Device:C")
 		(at 54.61 83.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a16cce-3b40-46c9-8367-27e77a81c315")
 		(property "Reference" "C2"
 			(at 58.42 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,6 +3357,8 @@
 		)
 		(property "Value" "100nF"
 			(at 58.42 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,29 +3368,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.5752 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 54.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3390,7 +3406,7 @@
 			(uuid "638e8361-9fdc-478e-bd00-3f6dc530b9df")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "C2")
 					(unit 1)
@@ -3403,13 +3419,17 @@
 		(at 236.22 83.82 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae3cb1fb-adb0-48b5-a1f0-cafc2e61cea7")
 		(property "Reference" "J1"
 			(at 234.442 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,39 +3439,47 @@
 		)
 		(property "Value" "Conn_01x05_Pin"
 			(at 237.49 82.5501 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 236.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 236.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 236.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3470,7 +3498,7 @@
 			(uuid "93f79955-c1bf-4fb0-a7d1-7d1da8cca491")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "J1")
 					(unit 1)
@@ -3482,14 +3510,18 @@
 		(lib_id "Device:L")
 		(at 151.13 77.47 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6822f84-4a6e-40a3-98e9-ee800a8cbf4c")
 		(property "Reference" "L1"
 			(at 152.4 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,6 +3531,8 @@
 		)
 		(property "Value" "SOT"
 			(at 152.4 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,29 +3542,35 @@
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 151.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
 			(at 151.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3540,7 +3580,7 @@
 			(uuid "674d8fe4-f888-4bd3-a4ac-ba2a37a660d4")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "L1")
 					(unit 1)
@@ -3552,23 +3592,29 @@
 		(lib_id "power:VCC")
 		(at 128.27 68.58 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4dcf826-66b5-44cd-9193-dd58f639b972")
 		(property "Reference" "#PWR04"
 			(at 128.27 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 128.27 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,36 +3623,42 @@
 		)
 		(property "Footprint" ""
 			(at 128.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 128.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 128.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "54f3c24d-d477-46a8-aef4-26ce1e856960")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "#PWR04")
 					(unit 1)
@@ -3618,13 +3670,17 @@
 		(lib_id "G4EML:NT3225SA")
 		(at 82.55 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8618acb-0add-4930-aa42-63cb9b070047")
 		(property "Reference" "X1"
 			(at 84.582 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,6 +3689,8 @@
 		)
 		(property "Value" "NT3225SA 26 MHz"
 			(at 84.455 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,29 +3699,35 @@
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 82.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 82.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 82.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -3679,7 +3743,7 @@
 			(uuid "655e57a8-0aee-4c38-8435-d8fde39a0081")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "X1")
 					(unit 1)
@@ -3691,23 +3755,29 @@
 		(lib_id "power:GND")
 		(at 127 100.33 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75b5349-ecd1-463c-a098-9aac799812c2")
 		(property "Reference" "#PWR01"
 			(at 127 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 127 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,36 +3786,42 @@
 		)
 		(property "Footprint" ""
 			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "d59acbdd-80b3-4e32-8a69-3cd29368975a")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "#PWR01")
 					(unit 1)
@@ -3757,22 +3833,28 @@
 		(lib_id "Device:C")
 		(at 162.56 87.63 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89ce63c-ff68-4b96-ba6c-bfd15bbb1beb")
 		(property "Reference" "C3"
 			(at 162.56 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SOT"
+		(property "Value" "82pF"
 			(at 162.56 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,29 +3863,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 86.6648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 162.56 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3813,7 +3901,7 @@
 			(uuid "b4e2985b-68df-4c75-b9a3-554cda63c5b2")
 		)
 		(instances
-			(project ""
+			(project "CMT2119A"
 				(path "/d38e8ed1-e625-45e9-8b6c-f7e02cbba196"
 					(reference "C3")
 					(unit 1)
