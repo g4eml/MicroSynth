@@ -18,6 +18,19 @@ Programming of the CMT2119A chip is done using a RP2040 Zero module which can be
 
 3. Copy the .uf2 file onto the USB drive. The RP2040 will recognise the file and immediately update its firmware and reboot.
 
+4. Windows 10 and above should automatically load the necessary driver and allocate a Com Port to the RP2040.
+
+To enter programming mode you need to connect to the USB serial port using a terminal program such as Putty or Terraterm. Pressing any key should result in the menu being displayed.
+
+### Connections for programming
+
+| RP2040 | CMT2119A |
+| :---:  |  :---:   |
+|3V3     |   VDD    |
+|GND     |   GND    |
+|GPO6    |  DATA    | 
+|GPO7    |   CLK    | 
+
 
 The Arduino Sketch is also included in this repository if you need to make any changes. 
 
