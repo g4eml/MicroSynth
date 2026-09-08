@@ -113,6 +113,22 @@ void cmtReadFromChip(void)
    {
     cmtReg[r] = TWI_EEPROM_READ(r);
    }
+
+uint16_t bytes[4];            //for reading in the Ref Oscillator value
+
+  for(int r=0x15;r<0x19;r++)           //read EEPROM values 0x15 - 0x18
+   {
+    bytes[r-0x15] = TWI_EEPROM_READ(r);
+   }
+
+   memcpy(&refOsc, bytes, sizeof(refOsc));
+
+   if((refOsc < 25.00) | (refOsc > 27.00))
+    {
+      Serial.println("Setting Default Ref Osc = 26 MHz");
+      refOsc = 26.00;
+    }
+
   TWI_EEPROM_END();
 
   Serial.println("Resetting from CMT2119A EEPROM");
@@ -425,6 +441,21 @@ void cmtEepromBurn(void)
     TWI_EEPROM_WRITE(r, cmtReg[r]);
    }
 
+   //Use 4 unused? EEPROM locations to save the Reference Oscillator frequency
+
+   uint16_t bytes[4];         //for conversion of Double to 4x Uint16_t
+   memcpy(bytes, &refOsc, sizeof(refOsc));
+
+    TWI_EEPROM_ERASE(0x15);
+    TWI_EEPROM_WRITE(0x15,bytes[0]);
+    TWI_EEPROM_ERASE(0x16);
+    TWI_EEPROM_WRITE(0x16,bytes[1]);
+    TWI_EEPROM_ERASE(0x17);
+    TWI_EEPROM_WRITE(0x17,bytes[2]);
+    TWI_EEPROM_ERASE(0x18);
+    TWI_EEPROM_WRITE(0x18,bytes[3]);
+
+
   for(int r=0;r<0x15;r++)           //verify the EEPROM values 0x00 - 0x14
    {
     uint16_t val = TWI_EEPROM_READ(r);
@@ -436,6 +467,21 @@ void cmtEepromBurn(void)
       Serial.println(val,HEX);
      }
    }
+
+//verify the additional EEPROM locations
+   for(int r=0x15;r<0x19;r++)           //verify the EEPROM values 0x15 - 0x18
+   {
+    uint16_t val = TWI_EEPROM_READ(r);
+    if( val!= bytes[r-0x15])
+     {
+      Serial.print("RefOsc Verify Error at address = ");
+      Serial.print(r,HEX);
+      Serial.print(" Value = ");
+      Serial.println(val,HEX);
+     }
+   }
+
+
   TWI_EEPROM_END();
   Serial.println("Burn and Verify Complete");
 

@@ -96,7 +96,7 @@ void mainMenu(void)
 {
   char resp;
   double temp;
-  String menuList[] = {"O = Set Reference Oscillator Frequency" , "F = Enter Output Frequency" , "C = Calculate and display frequency from current settings" , "P = Program CMT2119A" , "G = Read Registers from Existing CMT2119A" , "X = Exit Menu" , "$$$"};
+  String menuList[] = {"R = Read Registers from Existing CMT2119A", "F = Enter Output Frequency", "P = Program CMT2119A", "O = Set Reference Oscillator Frequency" , "C = Calculate and display frequency from current settings" , "X = Exit Menu" , "$$$"};
 
    Serial.println("");
    Serial.print("Micro_Synth (CMT2119A) Controller Version ");
@@ -143,8 +143,8 @@ void mainMenu(void)
           }
         break;
 
-        case 'G':
-        case 'g':
+        case 'R':
+        case 'r':
         Serial.println("\nReading registers from connected CMT2119A...");
         cmtReadFromChip();
         Serial.println("Registers read.");
