@@ -96,7 +96,9 @@ void mainMenu(void)
 {
   char resp;
   double temp;
-  String menuList[] = {"R = Read Registers from Existing CMT2119A", "F = Enter Output Frequency", "P = Program CMT2119A", "O = Set Reference Oscillator Frequency" , "C = Calculate and display frequency from current settings" , "X = Exit Menu" , "$$$"};
+  double mfreq;
+  double error;
+  String menuList[] = {"R = Read Registers from Existing CMT2119A", "F = Enter Output Frequency", "P = Program CMT2119A", "O = Set Reference Oscillator Frequency" , "A = Adjust Ref Osc.", "C = Calculate and display freq from current settings" , "X = Exit Menu" , "$$$"};
 
    Serial.println("");
    Serial.print("Micro_Synth (CMT2119A) Controller Version ");
@@ -127,6 +129,39 @@ void mainMenu(void)
         Serial.println("Recalculating frequency with new Ref Osc.");
         cmtSetFrequency(temp);
         cmtUpdate();
+        break;
+        
+        case 'A':
+        case 'a':
+        Serial.println("\nReading registers from connected CMT2119A...");
+        cmtReadFromChip();
+        Serial.println("Registers read.");
+        temp=cmtGetFrequency();
+        Serial.print("Programmed Frequency = ");
+        Serial.print(temp,10);
+        Serial.println(" MHz");
+        Serial.print("Current Ref Osc. Value = ");
+        Serial.print(refOsc,10);       
+        Serial.println(" MHz");
+        Serial.print("\nEnter Measured Frequency in MHz -->");
+        mfreq = inputFloat();
+        error = mfreq/temp;
+        if((error > 1.001) | (error < 0.999))
+         {
+          Serial.println("Error too large, no adjustment possible.");
+          break;
+         }
+        Serial.println("Recalculating registers with corrected Ref Osc.");
+        refOsc=refOsc*error;
+        cmtSetFrequency(temp);
+        cmtUpdate();
+        Serial.print("New Frequency = ");
+        Serial.print(cmtGetFrequency(),10);
+        Serial.println(" MHz");
+        Serial.print("New Ref Osc. Value = ");
+        Serial.print(refOsc,10);       
+        Serial.println(" MHz");
+        Serial.println("\nFrequency Updated in RAM.\nProgram chip if you want this to be permanent");
         break;
 
         case 'C':

@@ -7,7 +7,7 @@
 // storage - the CMT2119A's own EEPROM (via the "Program CMT2119A" menu
 // option) is this project's only persistence.
 
-#define VERSION 1.00
+#define VERSION 1.10
 
 uint32_t cmtReg[21];      //the CMT2119A's 21 registers (single set - no channels)
 
